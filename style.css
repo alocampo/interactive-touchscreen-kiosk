@@ -3,6 +3,11 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.comic-page {
+  max-width: 75vh;
+  height: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -180,6 +185,8 @@ h2 {
 .flex-container {
   display: flex;
   background-color: #0e002c;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-container > div {
