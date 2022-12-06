@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #6c5b73;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ul {
@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: #6c5b73;
 }
 
 li {
@@ -39,6 +39,56 @@ li  a:hover {
   max-width: 100%;
   position: relative;
   margin: auto;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.0em;
+}
+
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 0px solid;
+}
+
+.button {
+  background-color: #e6d5d9;
+  border-radius: 8px;
+  border: none;
+  color: #0e002c;
+  padding: 1.3em 2em;
+  margin: 1%;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a:link{
+  color: #0e002c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 5.0em;
+  -webkit-text-stroke-width: .05em;
+  -webkit-text-stroke-color: #0e002c;
+}
+h2 {
+  font-size: 2em;
+  -webkit-text-stroke-width: .03em;
+  -webkit-text-stroke-color: #0e002c;
 }
 
 /* Hide the images by default */
@@ -114,7 +164,7 @@ li  a:hover {
 
 .flex-container {
   display: flex;
-  background-color: black;
+  background-color: #0e002c;
 }
 
 .flex-container > div {
