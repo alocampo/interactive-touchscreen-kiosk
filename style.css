@@ -11,6 +11,14 @@ ul {
   background-color: #6c5b73;
 }
 
+a:link:not(li){
+  color: #0e002c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
 li {
   float: right;
 }
@@ -73,13 +81,6 @@ li  a:hover {
   cursor: pointer;
 }
 
-a:link{
-  color: #0e002c;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
 h1 {
   font-size: 5.0em;
   -webkit-text-stroke-width: .05em;
@@ -87,8 +88,22 @@ h1 {
 }
 h2 {
   font-size: 2em;
-  -webkit-text-stroke-width: .03em;
+  -webkit-text-stroke-width: .05em;
   -webkit-text-stroke-color: #0e002c;
+}
+
+.textblock h1{
+  font-size: 1.5em;;
+}
+.textblock h2{
+  font-size: 1.1em;;
+}
+
+.mid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Hide the images by default */
@@ -168,7 +183,7 @@ h2 {
 }
 
 .flex-container > div {
-  background-color: #white;
+  background-color: #0e002c;
   color: white;
   width: 50%;
   margin: 10px;
